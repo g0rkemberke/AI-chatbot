@@ -5,25 +5,25 @@
 [ ] Markdown'ları düzgün göster
 [ ] key'i env variables'a al
 [ ] API isteğini custom hook olarak yaz??? (useGemini)
- 🤖 Gemini AI - React Chat Integration
-Bu proje, Google'ın Gemini AI modelini kullanarak geliştirilmiş, modern bir yapay zeka sohbet arayüzüdür. Proje geliştirilirken temiz kod (clean code) prensipleri, modülerlik ve güvenlik ön planda tutulmuştur.
+🤖 Gemini-Mind: Intelligent Chat Interface
+Bu proje, Google'ın en gelişmiş dil modeli olan Gemini Pro API'sini kullanan, gerçek zamanlı ve kullanıcı dostu bir yapay zeka asistanıdır. React mimarisi üzerine kurulu bu uygulama, modern web teknolojileri ile LLM (Large Language Model) entegrasyonunun nasıl yapılacağını gösteren bir örnektir.
 
-🌟 Öne Çıkan Özellikler
-Custom Hook Mimarisi: API mantığı useGemini hook'u içerisinde soyutlanarak bileşenlerin (component) sadece UI'a odaklanması sağlandı.
+✨ Teknik Özellikler
+Custom Hook Mimarisi (useGemini): API isteklerini ve asenkron süreçleri (loading, error) tek bir noktadan yöneten özel bir hook yapısı kullanıldı.
 
-Markdown Rendering: Gemini'den gelen teknik yanıtlar ve kod blokları, kullanıcıya düzgün formatlanmış bir şekilde sunulur.
+Markdown Desteği: AI'dan gelen teknik yanıtlar ve kod blokları, react-markdown ile temiz ve okunabilir bir şekilde render edilir.
 
-Güvenlik (Environment Variables): API anahtarları .env dosyası ile korunarak istemci tarafında güvenli bir şekilde yönetilir.
+Responsive Tasarım: Mobil ve masaüstü cihazlar için tamamen uyumlu kullanıcı arayüzü.
 
-Hata Yönetimi: API istekleri sırasında oluşabilecek kesintiler veya hatalar için kullanıcı dostu uyarılar eklenmiştir.
+Güvenli Anahtar Yönetimi: API anahtarları .env dosyası ile istemci tarafında korunmaktadır.
 
-🛠️ Kullanılan Teknolojiler
-Frontend: React.js
+🛠️ Teknolojiler
+Core: React.js
 
-AI Model: Google Gemini API
+AI Engine: Google Gemini Pro API
 
-Markdown: react-markdown (veya kullandığın kütüphane)
+Markdown: React-Markdown
 
-Styling: CSS Modules / Tailwind CSS
+Styles: CSS3 / (Buraya CSS kütüphaneni yaz örn: Tailwind)
 
-Environment: Vite / Create React App
+API Management: Axios / Fetch
