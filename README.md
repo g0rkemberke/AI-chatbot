@@ -24,6 +24,6 @@ AI Engine: Google Gemini Pro API
 
 Markdown: React-Markdown
 
-Styles: CSS3 / (Buraya CSS kütüphaneni yaz örn: Tailwind)
+Styles: CSS3 
 
 API Management: Axios / Fetch
